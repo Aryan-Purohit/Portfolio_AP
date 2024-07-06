@@ -1,5 +1,29 @@
-*{
+.navbar
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: blueviolet;
+}
 
+.nav-links
+{
+    display: flex;
+    align-items: center;
 }
 
 
+.nav-links ul
+{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li
+{
+    margin-left: 40px;
+}
