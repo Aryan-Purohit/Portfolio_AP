@@ -1,3 +1,10 @@
+.container
+{
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
 .navbar
 {
     position: fixed;
@@ -5,7 +12,6 @@
     left: 0;
     width: 100%;
     padding: 20px 100px;
-    background-color: blueviolet;
 }
 
 .nav-links
@@ -27,4 +33,9 @@
 .nav-links li
 {
     margin-left: 20px;
+}
+
+.nav-links a
+{
+    color: blue;
 }
