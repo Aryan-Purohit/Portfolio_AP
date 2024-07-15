@@ -3,7 +3,6 @@
     max-width: 1500px;
     margin: auto;
     padding: 20px;
-    background-color: green;
 }
 
 
@@ -13,7 +12,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 100px;
+    padding: 20px 160px;
 }
 
 .nav-links
@@ -45,4 +44,5 @@
 .About-Me
 {
     text-align: center;
+    
 }
