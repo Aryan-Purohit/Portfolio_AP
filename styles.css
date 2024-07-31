@@ -60,7 +60,28 @@ body
     
 }
 
+.Intro
+{
+    background-color: rgb(120, 161, 237);
+    border-radius: 25px;
+}
+
+.Looking
+{
+    background-color: rgb(120, 161, 237);
+    border-radius: 25px;
+
+}
+
+.Projects
+{
+    background-color: rgb(120, 161, 237);
+    
+}
+
 .Contact
 {
+    background-color: rgb(120, 161, 237);
+    border-radius: 25px;
     text-align: center;
 }
