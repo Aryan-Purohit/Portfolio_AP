@@ -9,13 +9,13 @@ body
     max-width: 1500px;
     margin: auto;
     padding: 20px;
-    background-color: rgb(100, 149, 237);
+    /*background-color: rgb(120, 237, 174);*/
     border-radius: 25px;
 }
 
-.logo
+.logo img
 {
-
+    border-radius: 25px;
 }
 
 .navbar
@@ -49,13 +49,13 @@ body
 
 .nav-links a
 {
-    color: blue;
+    color: black;
 }
 
 .About-Me
 {
     text-align: center;
-    background-color: rgb(100, 149, 237);
+    background-color: rgb(120, 161, 237);
     border-radius: 25px;
     
 }
