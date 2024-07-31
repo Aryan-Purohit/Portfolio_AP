@@ -1,14 +1,25 @@
+body
+{
+    background-color: cornflowerblue;
+    color: #333333;
+}
+
 .container
 {
     max-width: 1500px;
     margin: auto;
     padding: 20px;
+    background-color: rgb(100, 149, 237);
+    border-radius: 25px;
 }
 
+.logo
+{
+
+}
 
 .navbar
 {
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -44,6 +55,8 @@
 .About-Me
 {
     text-align: center;
+    background-color: rgb(100, 149, 237);
+    border-radius: 25px;
     
 }
 
