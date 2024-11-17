@@ -4,14 +4,6 @@ body
     color: white;
 }
 
-.container
-{
-    max-width: 1500px;
-    margin: auto;
-    padding: 20px;
-    /*background-color: rgb(120, 237, 174);*/
-    border-radius: 25px;
-}
 
 .logo
 {
@@ -31,6 +23,33 @@ body
     border: none;
 }
 
+.drop-down:hover .dropdown-menu 
+{
+    display: block;
+    
+}
+
+.drop-down .btn.dropdown-toggle:hover
+{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.drop-down .dropdown-menu 
+{
+    display: none;
+}
+
+.drop-down .dropdown-menu 
+{
+    transition: opacity 0.3s;
+    opacity: 0;
+}
+
+.drop-down:hover .dropdown-menu 
+{
+    opacity: 1;
+}
 
 .dropdown-toggle::after
 {
@@ -48,36 +67,6 @@ body
     color: white;
 }
 
-.navbar
-{
-    display: inline-block;
-}
-
-.nav-links
-{
-    display: flex;
-    align-items: center;
-    padding-left: 70%;
-}
-
-
-.nav-links ul
-{
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.nav-links li
-{
-    margin-left: 20px;
-}
-
-.nav-links a
-{
-    color: black;
-}
 
 .About-Me
 {
