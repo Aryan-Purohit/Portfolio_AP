@@ -67,6 +67,11 @@ body
     color: white;
 }
 
+.drop-down
+{
+    max-width: 80px;
+}
+
 
 .About-Me
 {
