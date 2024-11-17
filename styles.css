@@ -17,19 +17,40 @@ body
 {
     background: none;
     border: none;
+    display: inline-block;
 }
 
-.logo img
+.drop-down img
 {
     border-radius: 25px;
 }
 
+.btn
+{
+    background-color: black;
+    border: none;
+}
+
+
+.dropdown-toggle::after
+{
+    display: none;
+}
+
+.dropdown-menu
+{
+    background-color: black;
+    display: none;
+}
+
+.dropdown-item
+{
+    color: white;
+}
+
 .navbar
 {
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 160px;
+    display: inline-block;
 }
 
 .nav-links
@@ -70,6 +91,11 @@ body
 {
     background-color: rgb(16, 15, 15);
     border-radius: 25px;
+}
+
+.Looking p 
+{
+    text-align: right;
 }
 
 .Looking

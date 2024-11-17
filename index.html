@@ -3,29 +3,28 @@
     <!--Head usual description-->
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport"
-        content="width=device-width,
-        initial-scale=1.0" />
-        <title>Portfolio | Aryan Purohit </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        
+        <title>Portfolio | Aryan Purohit</title>
         <link rel="icon" type="image/x-icon" href="./favicon/favicon.ico?">
         <link rel="stylesheet" href="styles.css" />
     </head>
+    
 
-    <body>       
-        <!--Navbar classes with logo-->
+    <body> 
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-        <div class="container">
-            <button class="logo" id="hamburger">
+        <div class="drop-down">
+            <button type = "button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                 <img src="./favicon/android-chrome-50x50.png?" alt="Logo">
             </button>
-
-            <nav class="navbar" id="nav">
-                <ul>
-                    <li><a href="./Projects.html?">Projects</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                    <li><a href="#Contact">Contact</a></li>
-                </ul>
-            </nav>
+            <ul class="dropdown-menu dropdown-menu-end">
+                <li><button class="dropdown-item" type="button">Resume</button></li>
+                <li><button class="dropdown-item" type="button">Contact</button></li>
+              </ul>
         </div>
 
         <div class="About-Me">
@@ -42,7 +41,7 @@
 
         <div class="Looking">
             <h1> What am I looking for? </h1>
-            I am seeking internships in Computer Science and Computer Gaming, aiming to become a visionary in the field and for AI advancements.
+            <p>I am seeking internships in Computer Science and Computer Gaming, aiming to become a visionary in the field and for AI advancements.</p>
         </div>
 
         <div class="Projects">
@@ -54,7 +53,7 @@
             <h1> Contact Me </h1>
 
             <a href="mailto: [aryanpurohit007@outlook.com]">
-                <img src="./favicon/mail_logo.jpg?" alt="Mail">
+                <img src="favicon\Mail_logo_BW.jpeg?" alt="Mail" width="100">
             </a>
 
             <a href="./files/Aryan_Resume 2024.pdf?" download>
