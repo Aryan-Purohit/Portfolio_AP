@@ -111,3 +111,14 @@ body
     border-radius: 25px;
     text-align: center;
 }
+
+.Contact img
+{
+    margin: 10px;
+    border: none;
+}
+
+.Contact a
+{
+    text-decoration: none;
+}
