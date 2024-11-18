@@ -112,14 +112,14 @@ body
     text-align: center;
 }
 
-.Contact img
+a img
 {
     margin: 10px;
     border: none;
     width: 40px
 }
 
-.Contact a
+a
 {
     text-decoration: none;
 }
