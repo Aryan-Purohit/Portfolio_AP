@@ -30,6 +30,23 @@ body
     
 }
 
+.About-Me.fade-in
+{
+    opacity: 0; /* Initially hidden */
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn 
+{
+    from {
+      opacity: 0;
+      transform: translateY(20px); /* Optional: Slight slide-up */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
 
 /*Intro section*/
 .Intro
