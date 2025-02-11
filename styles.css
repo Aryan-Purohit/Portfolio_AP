@@ -1,9 +1,11 @@
+/*Body formatting*/
 body
 {
     background-color: black;
     color: white;
 }
 
+/*Logo formatting(top left)*/
 .Logo
 {
     background: black;
@@ -19,7 +21,7 @@ body
     background: black;
 }
 
-
+/*About Me section*/
 .About-Me
 {
     text-align: center;
@@ -28,6 +30,8 @@ body
     
 }
 
+
+/*Intro section*/
 .Intro
 {
     background-color: rgb(16, 15, 15);
@@ -44,6 +48,7 @@ body
     margin: 0;
 }
 
+/*Looking for section*/
 .Looking p 
 {
     text-align: right;
@@ -62,6 +67,7 @@ body
     font-family: 'Nunito'; 
 }
 
+/*Projects section*/
 .Projects
 {
     background-color: rgb(16, 15, 15);
@@ -81,6 +87,7 @@ body
     box-shadow: 0 0 10px 5px white;
 }
 
+/*Contact section*/
 .Contact
 {
     background-color: rgb(16, 15, 15);
