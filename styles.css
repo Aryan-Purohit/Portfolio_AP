@@ -4,72 +4,19 @@ body
     color: white;
 }
 
-
-.logo
+.Logo
 {
-    background: none;
+    background: black;
     border: none;
     display: inline-block;
+    padding-left: 10px;
 }
 
-.drop-down img
+.Logo img
 {
     border-radius: 25px;
-}
-
-.btn
-{
     background-color: black;
-    border: none;
-}
-
-.drop-down:hover .dropdown-menu 
-{
-    display: block;
-    
-}
-
-.drop-down .btn.dropdown-toggle:hover
-{
-    background-color: transparent;
-    border-color: transparent;
-}
-
-.drop-down .dropdown-menu 
-{
-    display: none;
-}
-
-.drop-down .dropdown-menu 
-{
-    transition: opacity 0.3s;
-    opacity: 0;
-}
-
-.drop-down:hover .dropdown-menu 
-{
-    opacity: 1;
-}
-
-.dropdown-toggle::after
-{
-    display: none;
-}
-
-.dropdown-menu
-{
-    background-color: black;
-    display: none;
-}
-
-.dropdown-item
-{
-    color: white;
-}
-
-.drop-down
-{
-    max-width: 9%;
+    background: black;
 }
 
 
@@ -85,6 +32,16 @@ body
 {
     background-color: rgb(16, 15, 15);
     border-radius: 25px;
+    max-width: 100%;
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.Intro p
+{
+    flex: 1;
+    margin: 0;
 }
 
 .Looking p 
@@ -99,10 +56,29 @@ body
 
 }
 
+.Looking h1
+{
+    font-size: 60px;
+    font-family: 'Nunito'; 
+}
+
 .Projects
 {
     background-color: rgb(16, 15, 15);
 
+}
+
+.Projects img
+{
+    margin: 40px;
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+    border-radius: 10px;
+}
+
+.Projects img:hover
+{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 5px white;
 }
 
 .Contact
