@@ -71,6 +71,11 @@ body
     text-align: right;
 }
 
+.Looking h1
+{
+    margin-left: 20px;
+}
+
 .Looking
 {
     background-color: rgb(16, 15, 15);
@@ -91,6 +96,19 @@ body
 
 }
 
+.Projects h1
+{
+    margin-left: 20px;
+}
+
+.Project-Icons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allows wrapping of images */
+}
+
 .Projects img
 {
     margin: 40px;
@@ -102,6 +120,37 @@ body
 {
     transform: scale(1.1);
     box-shadow: 0 0 10px 5px white;
+}
+
+/*Languages Section*/
+.Languages
+{
+    background-color: rgb(16, 15, 15);
+    border-radius: 25px;
+}
+
+.Languages h1
+{
+    margin-left: 20px;
+}
+
+.Languages img
+{
+    margin: 10px;
+    display: block;
+}
+
+.Language-Icons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Languages img:hover 
+{
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
 }
 
 /*Contact section*/
